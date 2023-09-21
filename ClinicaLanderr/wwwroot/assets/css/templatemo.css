@@ -51,12 +51,11 @@ body, ul, li, p, a, label, input, div {
 /* General */
 .logo { font-weight: 500 !important;}
 .text-warning {  color: #ede861 !important;}
-.text-muted { color: #bcbcbc !important;}
-.text-success { color: #59ab6e !important;}
-.text-light { color: #cfd6e1 !important;}
-.bg-dark { background-color: #212934 !important;}
-.bg-light { background-color: #e9eef5 !important;}
-.bg-black { background-color: #1d242d !important;}
+.text-muted { color: #49793d !important;}
+.text-success { color: #49793d !important;}
+.text-light { color: #49793d !important;}
+.bg-light { background-color: #49793d !important;}
+.bg-green { background-color: #c8deb8 !important;}
 .bg-success { background-color: #59ab6e !important;}
 .btn-success {
   background-color: #59ab6e !important;

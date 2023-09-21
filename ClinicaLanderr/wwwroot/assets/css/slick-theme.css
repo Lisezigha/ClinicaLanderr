@@ -2,13 +2,13 @@
 /* Slider */
 .slick-loading .slick-list
 {
-    background: #fff url('../img/ajax-loader.gif') center center no-repeat;
+    background: #c8deb8 url('../img/ajax-loader.gif') center center no-repeat;
 }
 
 /* Icons */
 @font-face
 {
-    font-family: 'slick';
+    font-family: 'coffecake';
     font-weight: normal;
     font-style: normal;
 
@@ -74,7 +74,7 @@
     line-height: 1;
 
     opacity: .75;
-    color: white;
+    color: #c8deb8;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
