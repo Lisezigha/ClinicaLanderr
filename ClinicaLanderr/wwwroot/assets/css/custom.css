@@ -1,9 +1,11 @@
 /*
 Custom Css
 */
+
+
 @import url(../../fontes/Roboto-BoldCondensed.ttf);
 @import url(../../fontes/MarianaOghawa.ttf);
-@import url(../../fontes/CoffeCake.ttf);
+@import url(../../fontes/CoffeCake.otf);
 
 
 
@@ -13,7 +15,7 @@ body {
 }
 
 .nav-link {
-    font-family: 'CoffeCake';
+    font-family: 'Mariana';
 }
 
 .navbar {
