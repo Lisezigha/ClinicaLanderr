@@ -4,21 +4,29 @@ Custom Css
 
 
 @import url(../../fontes/Roboto-BoldCondensed.ttf);
-@import url(../../fontes/MarianaOghawa.ttf);
+@import url(../../fontes/mariana.ttf);
 @import url(../../fontes/CoffeCake.otf);
 
-
+@font-face {
+    font-family: FonteMenu;
+    src: url('../../fontes/mariana.ttf') format('opentype');
+  }
+  
 
 body {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: 'MinhaFonteLocal', sans-serif;
 
-}
-
-.nav-link {
-    font-family: 'Mariana';
 }
 
 .navbar {
     background-color: #C8DEB8;
+}
+
+#templatemo_main_nav a {
+    font-family: 'FonteMenu', sans-serif;
+}
+
+.img-fluid {
+    height: 500px;
 }
 
