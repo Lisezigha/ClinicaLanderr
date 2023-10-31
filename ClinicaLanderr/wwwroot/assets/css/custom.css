@@ -5,14 +5,18 @@ Custom Css
 
 @import url(../../fontes/Roboto-BoldCondensed.ttf);
 @import url(../../fontes/mariana.ttf);
-@import url(../../fontes/CoffeCake.otf);
+@import url(../../fontes/CoffeCake.ttf);
+@import url(../../fontes/BebasKai.ttf);
+@import url(../../fontes/MADE\ Tommy\ Soft\ Medium\ PERSONAL\ USE.otf);
 
 @font-face {
     font-family: FonteMenu;
-    src: url('../../fontes/mariana.ttf') format('opentype');
+    src: url('../../fontes/MADE\ Tommy\ Soft\ Medium\ PERSONAL\ USE.otf') format('opentype');
+    size: 90%;
   }
   
 
+  
 body {
     font-family: 'MinhaFonteLocal', sans-serif;
 

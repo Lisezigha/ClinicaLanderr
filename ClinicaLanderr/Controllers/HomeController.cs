@@ -18,7 +18,22 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Privacy()
+    public IActionResult Equipe()
+    {
+        return View();
+    }
+
+       public IActionResult Produtos()
+    {
+        return View();
+    }
+
+       public IActionResult Duvidas()
+    {
+        return View();
+    }
+
+       public IActionResult Agendamento()
     {
         return View();
     }
