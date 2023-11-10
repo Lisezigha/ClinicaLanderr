@@ -18,11 +18,6 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Equipe()
-    {
-        return View();
-    }
-
        public IActionResult Produtos()
     {
         return View();
