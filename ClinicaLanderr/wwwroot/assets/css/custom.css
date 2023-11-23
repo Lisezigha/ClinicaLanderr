@@ -11,17 +11,19 @@ Custom Css
 
 @font-face {
     font-family: FonteMenu;
-    src: url('../../fontes/MADE\ Tommy\ Soft\ Medium\ PERSONAL\ USE.otf') format('opentype');
+    src: url(../../fontes/MADE\ Tommy\ Soft\ Medium\ PERSONAL\ USE.otf) format('opentype');
     size: 90%;
   
   }
-  
+
 
   
 body {
-    font-family: 'MinhaFonteLocal', sans-serif;
+    font-family: 'mariana', sans-serif;
 
 }
+
+
 
 .navbar {
     background-color: #9ee4c3;

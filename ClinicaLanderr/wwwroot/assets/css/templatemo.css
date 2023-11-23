@@ -25,30 +25,38 @@ Table of contents
 16. Extra large devices (large desktops, 1200px and up)
 --------------------------------------------- */
 
+@import url(../../fontes/Roboto-BoldCondensed.ttf);
+@import url(../../fontes/mariana.ttf);
+@import url(../../fontes/CoffeCake.ttf);
+@import url(../../fontes/BebasKai.ttf);
+@import url(../../fontes/MADE\ Tommy\ Soft\ Medium\ PERSONAL\ USE.otf);
 
 
 
 /* Typography */
 body, ul, li, p, a, label, input, div {
-  font-family: 'Roboto';
-  src: url('../../fontes/BebasKai.ttf') format('opentype');
+  font-family: 'mariana';
+  src: url(../../fontes/mariana.ttf) format('opentype');
   font-size: 18px !important;
   font-weight: 300 !important;
 }
 .h1 {
-  font-family: 'CoffeCake';
+  font-family: 'mariana';
   font-size: 48px !important;
   font-weight: 200 !important;
 }
 .h2 {
-  font-family: 'Roboto';
+  font-family: 'mariana';
   font-size: 30px !important;
   font-weight: 300;
 }
 .h3 {
-  font-family: 'Roboto';
+  font-family: 'mariana';
   font-size: 22px !important;
 }
+
+
+
 /* General */
 .logo { font-weight: 500 !important;}
 .text-warning {  color: #ede861 !important;}
@@ -153,7 +161,7 @@ body, ul, li, p, a, label, input, div {
   color: #008a7e;
   transition: .5s;
 }
-#tempaltemo_footer .border-light { border-color: #00bea8 !important;}
+#tempaltemo_footer .border-light { border-color: #00665aa4 !important;}
 /*
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
