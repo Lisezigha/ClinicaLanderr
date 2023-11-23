@@ -13,6 +13,7 @@ Custom Css
     font-family: FonteMenu;
     src: url('../../fontes/MADE\ Tommy\ Soft\ Medium\ PERSONAL\ USE.otf') format('opentype');
     size: 90%;
+  
   }
   
 
@@ -23,7 +24,10 @@ body {
 }
 
 .navbar {
-    background-color: #C8DEB8;
+    background-color: #9ee4c3;
+    
+   
+   
 }
 
 #templatemo_main_nav a {

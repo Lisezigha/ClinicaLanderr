@@ -2,7 +2,7 @@
 /* Slider */
 .slick-loading .slick-list
 {
-    background: #c8deb8 url('../img/ajax-loader.gif') center center no-repeat;
+    background: #9ee4c3 url('../img/ajax-loader.gif') center center no-repeat;
 }
 
 /* Icons */
@@ -74,7 +74,7 @@
     line-height: 1;
 
     opacity: .75;
-    color: #c8deb8;
+    color: #9ee4c3;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

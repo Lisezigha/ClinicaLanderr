@@ -30,38 +30,39 @@ Table of contents
 
 /* Typography */
 body, ul, li, p, a, label, input, div {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
+  src: url('../../fontes/BebasKai.ttf') format('opentype');
   font-size: 18px !important;
   font-weight: 300 !important;
 }
 .h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'CoffeCake';
   font-size: 48px !important;
   font-weight: 200 !important;
 }
 .h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
   font-size: 30px !important;
   font-weight: 300;
 }
 .h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
   font-size: 22px !important;
 }
 /* General */
 .logo { font-weight: 500 !important;}
 .text-warning {  color: #ede861 !important;}
-.text-muted { color: #49793d !important;}
-.text-success { color: #49793d !important;}
-.text-light { color: #49793d !important;}
-.bg-light { background-color: #49793d !important;}
-.bg-green { background-color: #c8deb8 !important;}
-.bg-success { background-color: #59ab6e !important;}
+.text-muted { color: #00a388!important;}
+.text-success { color: #00a388 !important;}
+.text-light { color: #00a388 !important;}
+.bg-light { background-color: #dffff9 !important;}
+.bg-green { background-color: #9ee4c3 !important;}
+.bg-success { background-color: #00a388 !important;}
 .btn-success {
-  background-color: #59ab6e !important;
-  border-color: #56ae6c !important;
+  background-color: #b8fffb !important;
+  border-color: #adffed !important;
 }
-.pagination .page-link:hover {color: #000;}
+.pagination .page-link:hover {color: #8dffd3;}
 .pagination .page-link:hover, .pagination .page-link.active {
   background-color: #69bb7e;
   color: #fff;
@@ -69,19 +70,19 @@ body, ul, li, p, a, label, input, div {
 /* Nav */
 #templatemo_nav_top { min-height: 40px;}
 #templatemo_nav_top * { font-size: .9em !important;}
-#templatemo_main_nav a { color: #49793d;}
-#templatemo_main_nav a:hover { color: #69bb7e;}
+#templatemo_main_nav a { color: #00a388;}
+#templatemo_main_nav a:hover { color: #d1fffd;}
 #templatemo_main_nav .navbar .nav-icon { margin-right: 20px;}
 
 /* Hero Carousel */
 #template-mo-zay-hero-carousel { background: #efefef !important;}
 /* Accordion */
-.templatemo-accordion a { color: #000;}
-.templatemo-accordion a:hover { color: #333d4a;}
+.templatemo-accordion a { color: #0cb39c;}
+.templatemo-accordion a:hover { color: #b6fff9;}
 /* Shop */
-.shop-top-menu a:hover { color: #69bb7e !important;}
+.shop-top-menu a:hover { color: #8dffec !important;}
 /* Product */
-.product-wap { box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);}
+.product-wap { box-shadow: 0px 5px 10px 0px rgba(124, 255, 227, 0.1);}
 .product-wap .product-color-dot.color-dot-red { background:#f71515;}
 .product-wap .product-color-dot.color-dot-blue { background:#6db4fe;}
 .product-wap .product-color-dot.color-dot-black { background:#000000;}
@@ -116,11 +117,11 @@ body, ul, li, p, a, label, input, div {
 /* Carousel Hero */
 #template-mo-zay-hero-carousel .carousel-indicators li {
   margin-top: -50px;
-  background-color: #59ab6e;
+  background-color: #9bffe6;
 }
 #template-mo-zay-hero-carousel .carousel-control-next i,
 #template-mo-zay-hero-carousel .carousel-control-prev i {
-  color: #59ab6e !important;
+  color: #55e9c4 !important;
   font-size: 2.8em !important;
 }
 /* Carousel Brand */
@@ -136,8 +137,8 @@ body, ul, li, p, a, label, input, div {
 .leaflet-control a, .leaflet-control { font-size: 10px !important;}
 .form-control { border: 1px solid #e8e8e8;}
 /* Footer */
-#tempaltemo_footer a { color: #49793d;}
-#tempaltemo_footer a:hover { color: #032e0c;}
+#tempaltemo_footer a { color: #006856;}
+#tempaltemo_footer a:hover { color: #b3fff5;}
 #tempaltemo_footer ul.footer-link-list li { padding-top: 10px;}
 #tempaltemo_footer ul.footer-icons li {
   width: 2.6em;
@@ -145,14 +146,14 @@ body, ul, li, p, a, label, input, div {
   line-height: 2.6em;
 }
 #tempaltemo_footer ul.footer-icons li:hover {
-  background-color: #cfd6e1;
+  background-color: #cefff8;
   transition: .5s;
 }
 #tempaltemo_footer ul.footer-icons li:hover i {
-  color: #212934;
+  color: #008a7e;
   transition: .5s;
 }
-#tempaltemo_footer .border-light { border-color: #2d343f !important;}
+#tempaltemo_footer .border-light { border-color: #00bea8 !important;}
 /*
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
